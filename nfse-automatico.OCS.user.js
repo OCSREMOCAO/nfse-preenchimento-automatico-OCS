@@ -1,13 +1,16 @@
-// ==UserScript==
-// @name         NFS-e - Preenchimento Automático
-// @namespace    nfse-automacao-local
-// @version      3.4
-// @description  Pessoas, municipios, tributacao, ISSQN, NBS, PIS/COFINS, retencao, aliquota Simples e painel superior de sucesso
-// @match        https://www.nfse.gov.br/EmissorNacional/*
-// @match        https://nfse.gov.br/EmissorNacional/*
-// @run-at       document-idle
-// @grant        none
-// ==/UserScript==
+
+ // ==UserScript==
+ // @name         NFS-e - Preenchimento Automático OCS
+ // @namespace    nfse-automacao-local
+ // @version      3.4.1
+ // @author       Tarcísio Silveira
+ // @description  Pessoas, municípios, tributação, ISSQN, NBS, PIS/COFINS, retenção, alíquota Simples e painel superior de sucesso
+ // @match        https://www.nfse.gov.br/EmissorNacional/*
+ // @match        https://nfse.gov.br/EmissorNacional/*
+ // @run-at       document-idle
+ // @grant        none
+ // ==/UserScript==
+
 
 (function () {
   'use strict';
